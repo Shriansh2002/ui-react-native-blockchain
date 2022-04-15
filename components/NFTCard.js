@@ -7,6 +7,8 @@ import { CircleButton, RectButton } from './Button';
 import { SubInfo, NFTTitle, ETHPrice } from './SubInfo';
 
 const NFTCard = ({ data }) => {
+	const navigation = useNavigation();
+
 	return (
 		<View
 			style={{
